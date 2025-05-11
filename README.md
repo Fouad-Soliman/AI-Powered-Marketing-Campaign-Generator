@@ -1,4 +1,8 @@
 #  AI-Powered Marketing Campaign Generator
+### Demo:
+<a href="http://www.youtube.com/watch?feature=player_embedded&v=fIGaUP056WA"><img src="http://img.youtube.com/vi/fIGaUP056WA/0.jpg" 
+alt="IMAGE ALT TEXT HERE" width="1080" height="720" /></a>
+
 
 ##  Project Overview
 The **AI-Powered Marketing Campaign Generator** is an innovative tool designed to assist marketers in a telecom company by leveraging **Large Language Models (LLMs)** to generate personalized and data-driven marketing campaigns. By providing key inputs such as customer segment, budget, campaign theme, and legal restrictions, this tool automates and enhances the campaign ideation process, ensuring efficient and impactful marketing strategies.
@@ -81,5 +85,4 @@ This dataset provides a comprehensive view of customer interactions with digital
       - Loyalty Points: ~2,465 (slightly lower)
       - Most Tech-Savvy & Digital-Focused
       - Proposed Name: "Young High-Spending Consumers"
-### Demo:
-<iframe src="https://drive.google.com/file/d/1aHVDs8HQg-SDD5oV9XG6qfvK_cVGNWcR/preview" width="640" height="480" allow="autoplay"></iframe>
+
