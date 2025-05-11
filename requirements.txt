@@ -1,0 +1,14 @@
+langchain
+langchain-core
+langchain-google-genai
+langgraph
+pydantic
+python-dotenv
+beautifulsoup4
+requests
+pytrends
+pandas
+langchain-experimental
+typing-extensions
+streamlit
+google-generativeai

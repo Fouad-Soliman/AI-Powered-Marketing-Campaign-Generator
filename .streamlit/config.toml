@@ -1,0 +1,6 @@
+[theme]
+primaryColor = "#FF8C00"  # Orange (for highlights, etc.)
+secondaryBackgroundColor = "#FFFFFF"  # White
+backgroundColor = "#FFFFFF"  # White (default background)
+textColor = "#000000"  # Black (default text color)
+font = "sans serif"   # Or your preferred font

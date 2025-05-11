@@ -1,0 +1,23 @@
+# Use an official Python runtime as a parent image
+FROM python:3.10-slim-bookworm
+
+# Set the working directory in the container to /app
+WORKDIR /app
+
+# Copy the requirements file into the container at /app
+COPY requirements.txt .
+
+# Install any needed packages specified in requirements.txt
+RUN pip install --no-cache-dir -r requirements.txt
+
+# Copy the entire application code into the container
+COPY . .
+
+# Expose port 8501, which Streamlit uses by default
+EXPOSE 8501
+
+# Set environment variables (if needed - adjust as necessary)
+# ENV GOOGLE_API_KEY="YOUR_GOOGLE_API_KEY"  # Replace with your actual key
+
+# Command to run the Streamlit app.  Adjust the main script name if needed.
+CMD ["streamlit", "run", "main.py"]
